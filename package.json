@@ -1,0 +1,23 @@
+{
+  "name": "tback",
+  "version": "0.0.1",
+  "description": "Térence Backend node.js app.",
+  "main": "src/server/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tterence/TBack.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "terence.tadjifoue@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tterence/TBack/issues"
+  },
+  "homepage": "https://github.com/tterence/TBack#readme"
+}
