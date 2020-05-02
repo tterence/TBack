@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "Térence Backend node.js app.",
   "main": "src/server/index.js",
+  "type": "module",
   "scripts": {
-    "test": "npm test"
+    "pretest": "eslint .",
+    "test": "jest",
+    "start": "node src/server/."
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,23 @@
   "bugs": {
     "url": "https://github.com/tterence/TBack/issues"
   },
-  "homepage": "https://github.com/tterence/TBack#readme"
+  "homepage": "https://github.com/tterence/TBack#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "celebrate": "^12.1.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.1",
+    "express": "^5.0.0-alpha.8",
+    "helmet": "^3.22.0",
+    "hpp": "^0.2.3",
+    "morgan": "^1.10.0",
+    "pg-promise": "^10.5.2",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.4.0",
+    "jest-junit": "^10.0.0",
+    "supertest": "^4.0.2"
+  }
 }

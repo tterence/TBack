@@ -1,0 +1,15 @@
+log:
+  activated: true
+  console:
+    level: info
+
+db:
+  user: ''
+  host: localhost
+  password: ''
+  port: 5432
+  application: TT
+  database: FSGT
+
+app:
+  port: 3000
