@@ -12,7 +12,7 @@ try {
         if (error.name === 'ECONREFUSED') {
             winston.error('Impossible to connect, shutting down app');
             process.exit(1);
-        } else if (error.name === 'EADDRRINUSE') {
+        } else if (error.name === 'EADDRINUSE') {
             winston.error('Impossible to connect, port already used. Shutting down app');
             process.exit(2);
         } else {
